@@ -20,7 +20,7 @@
     border: none;
     cursor: pointer;
 }
-
+/* nav section */
 .nav-container-parent {
     padding: 15px;
 }
@@ -44,7 +44,7 @@
     text-decoration: none;
     color: #575757;
 }
-
+/* hero section */
 .hero {
     /* border:2px solid #1D4ED8; */
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/banner.jpg');
@@ -83,7 +83,7 @@
     font-size: 20px;
     margin-top: 200px;
 }
-
+/* speakers section */
 .card-section {
     margin: 70px auto 70px;
     text-align: center;
@@ -124,7 +124,7 @@
     font-size: 50px;
     font-weight: bold;
 }
-
+/* Price section */
 .price-section {
     text-align: center;
     margin: 80px auto 80px;
@@ -132,8 +132,9 @@
 
 .price-card-parent {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 20px;
     padding: 40px;
     /* border: 1px solid black; */
 }
@@ -157,7 +158,9 @@
     border-radius: 10px;
     font-weight: 200;
 }
-
+.price-card>h2{
+    font-size: 40px;
+}
 .price-card-standard {
     border: 1px solid #E5E7EB;
 }
@@ -185,7 +188,6 @@
 
 hr {
     margin-top: 20px;
-    /* margin-bottom: 20px; */
     opacity: 0.3;
 }
 
@@ -263,4 +265,37 @@ hr {
     color:#6b7280;
     font-size:15px;
     line-height:1.7;
+}
+
+/* Footer */
+
+footer{
+    background:#0D1B2A;
+    padding:25px 0;
+}
+
+.footer-up,
+.footer-down{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 0;
+}
+
+.social-icons,
+.footer-links{
+    display:flex;
+    gap:18px;
+    list-style:none;
+}
+
+.social-icons a,
+.footer-links a{
+    text-decoration:none;
+    color:#F8F9FB;
+    font-size:16px;
+}
+
+.footer-down p{
+    color:gainsboro;
 }
