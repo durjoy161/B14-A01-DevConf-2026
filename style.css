@@ -206,3 +206,61 @@ hr {
     background-color: white;
     color: #0D1B2A;
 }
+/* why attend section */
+.why-attend{
+    padding:90px 8%;
+    background:#fff;
+}
+.why-attend h2{
+    text-align:center;
+    font-size:48px;
+    color:#111827;
+    margin-bottom:15px;
+}
+
+.subtitle{
+    text-align:center;
+    color:#6b7280;
+    font-size:18px;
+    max-width:700px;
+    margin:0 auto 60px;
+    line-height:1.6;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:25px;
+}
+
+.feature-card{
+    background:#fff;
+    border-radius:18px;
+    padding:35px 25px;
+    text-align:center;
+    border:1px solid #edf0f5;
+}
+.icon{
+    width:70px;
+    height:70px;
+    background:#eef4ff;
+    color:#2563eb;
+    margin:0 auto 20px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+}
+
+.feature-card h3{
+    font-size:20px;
+    color:#111827;
+    margin-bottom:15px;
+}
+
+.feature-card p{
+    color:#6b7280;
+    font-size:15px;
+    line-height:1.7;
+}
