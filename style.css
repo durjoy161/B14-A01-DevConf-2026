@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+header{
+    padding: 15px;
+    /* border:2px solid #1D4ED8; */
+}
+/* common classes */
+.container{
+    max-width: 1430px;
+    margin: auto;
+    /* border: 2px solid black; */
+}
+.common-btn{
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+.nav-link a{
+    text-decoration: none;
+    color: #575757;
+}
